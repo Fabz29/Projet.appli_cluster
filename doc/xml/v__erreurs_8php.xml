@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="v__erreurs_8php" kind="file" language="PHP">
+    <compoundname>v_erreurs.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;col-md-offset-4<sp/>col-md-4&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;alert<sp/>alert-danger&quot;</highlight><highlight class="normal"><sp/>role=</highlight><highlight class="stringliteral">&quot;alert&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;ul&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;?php<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($_GET[</highlight><highlight class="stringliteral">&apos;erreurs&apos;</highlight><highlight class="normal">]<sp/>as<sp/>$erreur)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;li&gt;$erreur&lt;/li&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/ul&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+    </programlisting>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/vues/v_erreurs.php"/>
+  </compounddef>
+</doxygen>

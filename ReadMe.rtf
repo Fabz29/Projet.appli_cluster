@@ -1,0 +1,117 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AndaleMono;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red47\green255\blue18;\red0\green0\blue0;\red255\green255\blue255;
+\red40\green82\blue135;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh13300\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 ***** Interface web d\'e9di\'e9 au cluster *****\
+\
+Auteur : Fabien ZANETTI\
+Status : stagiaire\
+Contact : fabienzanetti57@gmail.com\
+\
+Projet :\
+Interface web au design sobre et claire permettant l\'92envoi de calcul au cluster par le biais d\'92un formulaire, o\'f9 directement par un fichier de configuration.\
+\
+But : \
+Interface web cr\'e9\'e9 dans le but de permettre \'e0 toutes personnes au seins du laboratoire d\'92utiliser le cluster de calcul sans besoin de connaissance dans l\'92informatique et les lignes de commandes.\
+\
+Contrainte :\
+L\'92interface doit indiquer si le calcul est en cours avec les informations de bases, exception faite si la personne lance un calcul avec un fichier aucunes informations pr\'e9cises ne pourra \'eatre affich\'e9. \
+Seule un calcul peut \'eatre lanc\'e9 en m\'eame temps. \
+\
+D\'e9veloppement :\
+	- Frameworks CSS : Bootstrap version 3 \
+	- Mod\'e8le MVC\
+	\
+Dossiers et fichiers : \
+\
+	- css :   bootstrap.css -> Fichiers de CSS de Boostrap (\'e0 utiliser que lors du d\'e9veloppement)\
+		    bootstrap.min.css -> Fichier minifier de CSS de Boostrap (\'e0 utiliser lors de la mise en prod. car son temps d\'92ex\'e9cution et plus court)\
+		    style.css -> Fichier de css propre au site du cluster.\
+\
+	- contr\'f4le : contient les contr\'f4leurs du mod\'e8le MVC\
+	\
+	- fonts : contient les polices et les ic\'f4nes boostrap\
+	\
+	- include : contient les fonctions de php, l\'92un pour acc\'e9der au donn\'e9es l\'92autre pour des fonctions de bases. c\'92est la parti dit \'94mod\'e8le\'94 du mod\'e8le MVC\
+\
+	- js : idem que pour les fichiers css. Avec script.js qui ai propre \'e0 l\'92interface\
+\
+	- vues : contient les vues du mod\'e8le MVC. \
+\
+	- upload : contiendra temporairement les fichiers(pbs.sh et calcul.inp) \'e0 envoyer sur le serveur de t\'eate du cluster \
+\
+Fonctionnement : \
+\
+L\'92utilisateur se connecte sur l\'92interface avec son login et mot de passe du LDAP. En cas d\'92erreurs un message est affich\'e9. Une fois connect\'e9, une session est sauvegard\'e9 et son login enregistr\'e9\
+dans la BDD si il n\'92es pas d\'e9j\'e0 enregistr\'e9. Cette session s\'92efface un certains temps ou lors de la fermeture du navigateur ou encore lors du clic sur le bouton de d\'e9connexion. \
+Une fois connect\'e9 l\'92utilisateur est redirig\'e9 vers les formulaires.\
+L\'92utilisateur doit juste renseign\'e9 son adresse mail dans le formulaire, les autres champs le sont d\'e9j\'e0 par d\'e9faut. Ensuite, chaque champs est enregistr\'e9 dans son navigateur avec le local storage.\
+Puis dans la BDD, la variable calculEnCours passe \'e0 1 afin d\'92indiquer que l\'92utilisateur vient de lancer son calcul et qu\'92il est bien en cours de calcul sur le cluster. Une fois le calcul finit, un mail est \
+envoy\'e9 \'e0 l\'92utilisateur, puis la page calcul en cours affiche un message pour indiquer le calcul en cours. \
+\
+ATTENTION : pour utiliser les fonctions ssh2 avec php il est n\'e9cessaire de rajouter une biblioth\'e8que au syst\'e8me et un fichier d\'92extension. Suivez ces \'e9tapes \'e0 la lettre : \
+Note : ils ma fallut plusieurs heures pour y parvenir, alors not\'e9 bien une chose, dans le dossier source vous trouverez les derni\'e8res version de la librairie de ssh2 ainsi que le fichier .so. \
+Il ne fonctionne uniquement sous PHP 5.5.19 64bits version nts. Je pr\'e9conise avec xampp !\
+\
+Pr\'e9requis : \
+\
+- Xampp version 64bits pour Mac (ou Linux)\
+- PHP version 5.5.19 \
+- configurer l\'92environnement du Mac avec la version php de camp (\'e9diter le fichier .profile dans /Users/Fabien et rajouter cette ligne : 
+\f1 \cf2 \cb0 \CocoaLigature0 export PATH=/Applications/XAMPP/xamppfiles/bin:$PATH\
+
+\f0 \cf0 \cb1 \CocoaLigature1 \
+\pard\pardeftab720\sl480
+
+\f2\fs28 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 1. download the libssh2 package from {\field{\*\fldinst{HYPERLINK "http://libssh2.org%2c/"}}{\fldrslt \cf5 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 http://libssh2.org,}} command as following: \
+tar vxzf libssh2-1.4.2.tar.gz\
+cd libssh2-1.4.2\
+./configure\
+make\
+make install\
+\
+2. download the php-ssh2 package from {\field{\*\fldinst{HYPERLINK "http://pecl.php.net/package/ssh2:"}}{\fldrslt \cf5 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 http://pecl.php.net/package/ssh2:}}\
+\
+tar vxzf ssh2-0.11.3\
+cd ssh2-0.11.3\
+phpize\
+./configure --with-ssh2\
+make\
+make install\
+\
+and the ssh2.so file will copy into /usr/lib64/php/modules\
+check it.\
+\
+3. modify the php.ini\
+\
+vi /etc/php.ini\
+\
+add the "extension=ssh2.so" to the extension part of php.ini\
+\
+4. check the environment of php, use phpinfo();\
+\
+5. enjoy
+\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+Am\'e9lioration :\
+\
+Pour plusieurs raisons, des am\'e9liorations sont manquantes \'e0 l\'92application. Notamment :\
+	- le cryptage des mots de passes \
+	- des informations \'e0 faire parvenir \'e0 l\'92utilisateur (le temps restant au calcul, si il est plant\'e9 ou non, si le calcul est en file d\'92attente ou non)\
+	- am\'e9liorer la s\'e9curit\'e9 et la validation de l\'92interface.\
+	- rajouter une fonction permettant d\'92afficher le compte \'e0 rebours du calcul.\
+	- rajouter dans la base de donn\'e9es un historique de l\'92utilisateur. \
+\
+Divers :\
+\
+- rajouter dans la base de donn\'e9es des informations permettant d\'92informer au maximum l\'92utilisateur sur l\'92\'e9tat de son calcul.\
+- mettre en place ajax sur le site pour am\'e9liorer ses performances et notamment rendre possible le compte rebours.\
+}

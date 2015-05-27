@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="v__upload_8php" kind="file" language="PHP">
+    <compoundname>v_upload.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;col-sm-5&quot;</highlight><highlight class="normal">&gt;<sp/>&lt;!--<sp/>début<sp/>du<sp/>formulaire<sp/><ref refid="bootstrap_8min_8js_1aeb337d295abaddb5ec3cb34cc2e2bbc9" kindref="member">d</ref></highlight><highlight class="stringliteral">&apos;upload<sp/>de<sp/>fichier<sp/>:<sp/>taille<sp/>5--&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;div<sp/>class=&quot;panel<sp/>panel-default&quot;&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/>class=&quot;panel-body<sp/>form-horizontal&quot;&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;form<sp/>action=&quot;index.php?url=cluster&amp;action=upload&quot;<sp/>method=&quot;post&quot;<sp/>enctype=&quot;multipart/form-data&quot;&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;legend&gt;Envoyer<sp/>votre<sp/>fichier&lt;/legend&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;input<sp/>type=&quot;hidden&quot;<sp/>name=&quot;MAX_FILE_SIZE&quot;<sp/>value=&quot;1073741824&quot;/&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;input<sp/>type=&quot;file&quot;<sp/>name=&quot;fichier&quot;<sp/>id=&quot;ficher&quot;<sp/>class=&quot;btn<sp/>btn-default&quot;<sp/>required&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;p<sp/>class=&quot;help-block&quot;&gt;Sélectionner<sp/>un<sp/>fichier<sp/>de<sp/>type<sp/>.inp&lt;/p&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/>class=&quot;pull-right&quot;&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;button<sp/>type=&quot;submit&quot;<sp/>name=&quot;upload&quot;<sp/>id=&quot;upload&quot;<sp/>class=&quot;btn<sp/>btn-success&quot;&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;i<sp/>class=&quot;glyphicon<sp/>glyphicon-download-alt&quot;&gt;&lt;/i&gt;<sp/>Envoyer</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/button&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;button<sp/>type=&quot;reset&quot;<sp/>name=&quot;annuler&quot;<sp/>id=&quot;annuler&quot;<sp/>value=&quot;Annuler&quot;<sp/>class=&quot;btn<sp/>btn-default&quot;&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;i<sp/>class=&quot;glyphicon<sp/>glyphicon-repeat&quot;&gt;&lt;/i&gt;<sp/>Annuler</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/button&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/form&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="20"><highlight class="stringliteral">&lt;/div&gt;<sp/>&lt;!--<sp/>fin<sp/>du<sp/>formulaire<sp/>d&apos;</highlight><highlight class="normal">upload<sp/>de<sp/>fichier<sp/>--&gt;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;col-sm-5&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;information&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;blockquote-box<sp/>blockquote-success<sp/>clearfix&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;square<sp/>pull-left&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;span<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;glyphicon<sp/>glyphicon-flag<sp/>glyphicon-lg&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;h4&gt;Etape<sp/>1&lt;/h4&gt;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;p&gt;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Envoyé<sp/>votre<sp/>fichier<sp/>de<sp/>calcul<sp/>.inp&lt;br&gt;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ensuite<sp/>un<sp/>formulaire<sp/>devra<sp/>être<sp/>renseigné.</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/p&gt;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+    </programlisting>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/vues/v_upload.php"/>
+  </compounddef>
+</doxygen>

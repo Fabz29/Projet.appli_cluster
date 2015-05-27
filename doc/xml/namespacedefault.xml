@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespacedefault" kind="namespace" language="PHP">
+    <compoundname>default</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe d&apos;accès aux données. Utilise les services de la classe PDO pour l&apos;interface web du cluster Les attributs sont tous statiques, les 4 premiers pour la connexion $monPdo de type PDO $monPdoGsb qui contiendra l&apos;unique instance de la classe</para><para><simplesect kind="author"><para>Fabien Zanetti </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/include/pdo.class.php" line="10" column="1"/>
+  </compounddef>
+</doxygen>

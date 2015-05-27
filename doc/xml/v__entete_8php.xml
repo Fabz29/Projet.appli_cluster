@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="v__entete_8php" kind="file" language="PHP">
+    <compoundname>v_entete.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;!DOCTYPE<sp/>html&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">&lt;html<sp/>lang=</highlight><highlight class="stringliteral">&quot;fr&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">&lt;head&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;meta<sp/>charset=</highlight><highlight class="stringliteral">&quot;utf-8&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;meta<sp/>http-equiv=</highlight><highlight class="stringliteral">&quot;X-UA-Compatible&quot;</highlight><highlight class="normal"><sp/>content=</highlight><highlight class="stringliteral">&quot;IE=edge&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;meta<sp/>name=</highlight><highlight class="stringliteral">&quot;viewport&quot;</highlight><highlight class="normal"><sp/>content=</highlight><highlight class="stringliteral">&quot;width=device-width,<sp/>initial-scale=1&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;meta<sp/>name=</highlight><highlight class="stringliteral">&quot;description&quot;</highlight><highlight class="normal"><sp/>content=</highlight><highlight class="stringliteral">&quot;Panel<sp/>d&apos;utilisateur<sp/>du<sp/>cluster&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;meta<sp/>name=</highlight><highlight class="stringliteral">&quot;author&quot;</highlight><highlight class="normal"><sp/>content=</highlight><highlight class="stringliteral">&quot;Fabien<sp/>Zanetti&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;title&gt;Gestion<sp/>du<sp/>cluster&lt;/title&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;!--<sp/>CSS<sp/>de<sp/>Boostrap<sp/>--&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;link<sp/>rel=</highlight><highlight class="stringliteral">&quot;stylesheet&quot;</highlight><highlight class="normal"><sp/>href=</highlight><highlight class="stringliteral">&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;!--<sp/>CSS<sp/>propre<sp/>au<sp/>site<sp/>(faire<sp/>les<sp/>modifications<sp/>de<sp/>style<sp/>uniquement<sp/>dans<sp/>ce<sp/>fichier)<sp/>--&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;link<sp/>href=</highlight><highlight class="stringliteral">&quot;css/style.css&quot;</highlight><highlight class="normal"><sp/>rel=</highlight><highlight class="stringliteral">&quot;stylesheet&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;!--<sp/>HTML5<sp/>Shim<sp/>and<sp/>Respond.js<sp/>IE8<sp/>support<sp/>of<sp/>HTML5<sp/>elements<sp/>and<sp/>media<sp/>queries<sp/>--&gt;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;!--<sp/>WARNING:<sp/>Respond.js<sp/>doesn</highlight><highlight class="stringliteral">&apos;t<sp/>work<sp/>if<sp/>you<sp/>view<sp/>the<sp/>page<sp/>via<sp/>file://<sp/>--&gt;</highlight></codeline>
+<codeline lineno="22"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;!--[if<sp/>lt<sp/>IE<sp/>9]&gt;</highlight></codeline>
+<codeline lineno="23"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;script<sp/>src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;</highlight></codeline>
+<codeline lineno="24"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;script<sp/>src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;</highlight></codeline>
+<codeline lineno="25"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;![endif]--&gt;</highlight></codeline>
+<codeline lineno="26"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="27"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;/head&gt;</highlight></codeline>
+<codeline lineno="28"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="29"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;body&gt;</highlight></codeline>
+<codeline lineno="30"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/>class=&quot;header&quot;&gt;&lt;!--<sp/>début<sp/>de<sp/>l&apos;</highlight><highlight class="normal">entête<sp/>--&gt;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;container&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;h3&gt;Centre<sp/>de<sp/>calcul&lt;br<sp/>/&gt;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;small&gt;Interface<sp/>web<sp/>dédié<sp/>au<sp/>cluster<sp/>de<sp/>calcul&lt;/small&gt;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/h3&gt;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;hr&gt;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/div&gt;<sp/>&lt;!--<sp/>fin<sp/>de<sp/>l</highlight><highlight class="stringliteral">&apos;entête<sp/>--&gt;</highlight></codeline>
+<codeline lineno="38"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/>class=&quot;container&quot;&gt;<sp/>&lt;!--<sp/>corps<sp/>du<sp/>site<sp/>--&gt;</highlight></codeline>
+<codeline lineno="39"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/>class=&quot;row&quot;&gt;<sp/>&lt;!--<sp/>début<sp/>de<sp/>la<sp/>ligne<sp/>--&gt;</highlight></codeline>
+    </programlisting>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/vues/v_entete.php"/>
+  </compounddef>
+</doxygen>

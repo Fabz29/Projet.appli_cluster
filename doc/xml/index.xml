@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.9.1">
+  <compound refid="class_pdo_gsb" kind="class"><name>PdoGsb</name>
+    <member refid="class_pdo_gsb_1a4ffb9d7258acf24e1ff550bceba60ed2" kind="variable"><name>$serveur</name></member>
+    <member refid="class_pdo_gsb_1a94f91e878bce0991e2cd595c5dd79b3f" kind="variable"><name>$bdd</name></member>
+    <member refid="class_pdo_gsb_1a598ca4e71b15a1313ec95f0df1027ca5" kind="variable"><name>$user</name></member>
+    <member refid="class_pdo_gsb_1a8a65334de2f0d486a42b02ecf82fe8fb" kind="variable"><name>$mdp</name></member>
+    <member refid="class_pdo_gsb_1a1552be3a092001bd250c619cf9d2b6e1" kind="variable"><name>$monPdo</name></member>
+    <member refid="class_pdo_gsb_1ab6c71a749c6744f50d646b4a2553b84e" kind="variable"><name>$monPdoGsb</name></member>
+    <member refid="class_pdo_gsb_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_pdo_gsb_1a1c6024f681d3956654622d9f28e540a2" kind="function"><name>_destruct</name></member>
+    <member refid="class_pdo_gsb_1ac4120f989c882751a0431e469e4e9be3" kind="function"><name>setInfosUtilisateur</name></member>
+    <member refid="class_pdo_gsb_1a4e01cafbad416bf4d96f026cab4f4e75" kind="function"><name>estEnregistrer</name></member>
+    <member refid="class_pdo_gsb_1a4553d49ec0dc9378ee19b09b31319c85" kind="function"><name>setCalcul</name></member>
+    <member refid="class_pdo_gsb_1a05d2aaff3e5bf06f81bd8f0c907266c7" kind="function"><name>unsetCalcul</name></member>
+    <member refid="class_pdo_gsb_1a4400d5e58e34f314fc06d89ff8dbe94a" kind="function"><name>setFinCalcul</name></member>
+    <member refid="class_pdo_gsb_1a9363823275fc491c775a7e4ffbb760f7" kind="function"><name>unsetFinCalcul</name></member>
+    <member refid="class_pdo_gsb_1a291b0bc351283e31daf8551c92f99901" kind="function"><name>setJobID</name></member>
+    <member refid="class_pdo_gsb_1a47b85265a70e856eafb831d633a47785" kind="function"><name>unsetJobID</name></member>
+    <member refid="class_pdo_gsb_1a90d81383bf9f629b2b6eb6e852424f2a" kind="function"><name>getCalcul</name></member>
+    <member refid="class_pdo_gsb_1aa6ccff71ee2520e83e90a4696341ad56" kind="function"><name>getFinCalcul</name></member>
+    <member refid="class_pdo_gsb_1a6b1ffabb531f7b0c73a4f84e6b2755de" kind="function"><name>getJobID</name></member>
+    <member refid="class_pdo_gsb_1a37ab3ed998137aeaf4d581365520067e" kind="function"><name>getPdoGsb</name></member>
+  </compound>
+  <compound refid="namespacedefault" kind="namespace"><name>default</name>
+  </compound>
+  <compound refid="c__cluster_8php" kind="file"><name>c_cluster.php</name>
+    <member refid="c__cluster_8php_1aef2ac477d895384d08de1ff55a1683db" kind="variable"><name>$idUtilisateur</name></member>
+    <member refid="c__cluster_8php_1a821a415f0b81aefbbdef8bd1abeced86" kind="variable"><name>$mdpUtilisateur</name></member>
+    <member refid="c__cluster_8php_1abe742752e7ba81af95b44bd0e99ba2e4" kind="variable"><name>DOSSIER</name></member>
+    <member refid="c__cluster_8php_1a7d46b3b924f99baf4e5a66b13f0c20f3" kind="variable"><name>$calculEnCours</name></member>
+  </compound>
+  <compound refid="c__connexion_8php" kind="file"><name>c_connexion.php</name>
+    <member refid="c__connexion_8php_1a3183c806fe617e9e10394994200b04e3" kind="variable"><name>$action</name></member>
+  </compound>
+  <compound refid="c__informations_8php" kind="file"><name>c_informations.php</name>
+  </compound>
+  <compound refid="fct_8inc_8php" kind="file"><name>fct.inc.php</name>
+    <member refid="fct_8inc_8php_1a80ca5386d53e29b2b310cb83191a9b31" kind="function"><name>estConnecte</name></member>
+    <member refid="fct_8inc_8php_1a97b08c386abe1dc64c15a73e47ac6286" kind="function"><name>connecter</name></member>
+    <member refid="fct_8inc_8php_1a999ec8c14031968ce9d6ba2410105d4b" kind="function"><name>deconnexion</name></member>
+    <member refid="fct_8inc_8php_1a9ebfa4d6e8d836827ddb02455281e5c1" kind="function"><name>ajouterErreur</name></member>
+    <member refid="fct_8inc_8php_1abc3600d37e9484937ea976542eabec4b" kind="function"><name>nbErreurs</name></member>
+  </compound>
+  <compound refid="pdo_8class_8php" kind="file"><name>pdo.class.php</name>
+  </compound>
+  <compound refid="index_8php" kind="file"><name>index.php</name>
+    <member refid="index_8php_1a5766efd703cef0e00bfc06b3f3acbe0e" kind="variable"><name>$pdo</name></member>
+    <member refid="index_8php_1aa720998827fe9e92a5fe573a62edc0b8" kind="variable"><name>$connexion</name></member>
+    <member refid="index_8php_1ac2d5dc09aedd8fe57d725d325e7f3d91" kind="variable"><name>$url</name></member>
+    <member refid="index_8php_1aeeb1e7cd8e0f1ce17347435a8396f0a9" kind="variable"><name>switch</name></member>
+  </compound>
+  <compound refid="bootstrap_8js" kind="file"><name>bootstrap.js</name>
+    <member refid="bootstrap_8js_1a2eb5ccc0cd870ff2cc5ce9b8d53cec48" kind="variable"><name>emulateTransitionEnd</name></member>
+    <member refid="bootstrap_8js_1a5a23b6797090169c0f80e3372ca76a4d" kind="variable"><name>dismiss</name></member>
+    <member refid="bootstrap_8js_1a261c5f999cc82b4ce70e4914330a1ef6" kind="variable"><name>Button</name></member>
+    <member refid="bootstrap_8js_1a423054031c78e782a9ea7433185ebafe" kind="variable"><name>Carousel</name></member>
+    <member refid="bootstrap_8js_1a702a68ef70b72eabdbdce3fc9ad195d4" kind="variable"><name>Collapse</name></member>
+    <member refid="bootstrap_8js_1aba65c57a7d9ee9d45d314e2bba7dd072" kind="variable"><name>backdrop</name></member>
+    <member refid="bootstrap_8js_1ae7e92ba98a0a00bcf27095cd53bb66c8" kind="function"><name>if</name></member>
+    <member refid="bootstrap_8js_1a1f869ec6b1fa9940961fb14a72d20473" kind="function"><name>transitionEnd</name></member>
+  </compound>
+  <compound refid="bootstrap_8min_8js" kind="file"><name>bootstrap.min.js</name>
+    <member refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kind="variable"><name>a</name></member>
+    <member refid="bootstrap_8min_8js_1a006fe6a2a254572b367123c6db401ff3" kind="variable"><name>emulateTransitionEnd</name></member>
+    <member refid="bootstrap_8min_8js_1ad9d1ac02e33c4aed62ad517a7cb8b3fb" kind="variable"><name>c</name></member>
+    <member refid="bootstrap_8min_8js_1aeb337d295abaddb5ec3cb34cc2e2bbc9" kind="variable"><name>d</name></member>
+    <member refid="bootstrap_8min_8js_1a3635f2df5844f69204b70bf7b3983587" kind="variable"><name>VERSION</name></member>
+    <member refid="bootstrap_8min_8js_1ae4adb159aeacba734c34bd530baf92f6" kind="variable"><name>TRANSITION_DURATION</name></member>
+    <member refid="bootstrap_8min_8js_1a72fbb3628c3cc943ced8aad64247888c" kind="variable"><name>close</name></member>
+    <member refid="bootstrap_8min_8js_1ab5902775854a8b8440bcd25e0fe1c120" kind="variable"><name>e</name></member>
+    <member refid="bootstrap_8min_8js_1aaa41eef066735d697e7786ec86d52389" kind="variable"><name>alert</name></member>
+    <member refid="bootstrap_8min_8js_1a0545907c609a48549a0cf5d4c692f851" kind="variable"><name>Constructor</name></member>
+    <member refid="bootstrap_8min_8js_1ac26971afe341e4079ee34fceab395fc2" kind="variable"><name>noConflict</name></member>
+    <member refid="bootstrap_8min_8js_1a6c1cf0be5e5383617ddc5efdfdc8c651" kind="variable"><name>DEFAULTS</name></member>
+    <member refid="bootstrap_8min_8js_1a14f119ea3b5abc5536d590dfe1793c6e" kind="variable"><name>setState</name></member>
+    <member refid="bootstrap_8min_8js_1aa8e797a9bda5e7e313be3518054164a3" kind="variable"><name>toggle</name></member>
+    <member refid="bootstrap_8min_8js_1a55e170814e74f6c3db8ae9ea3ba9054f" kind="variable"><name>button</name></member>
+    <member refid="bootstrap_8min_8js_1ac2d69f5011896c6ed4a54e0dd36f6334" kind="function"><name>if</name></member>
+    <member refid="bootstrap_8min_8js_1a87cf461060832b8b68a7b48d9e371e4f" kind="function"><name>if</name></member>
+    <member refid="bootstrap_8min_8js_1a7c192e47b11481e4717b9f1e04eb4420" kind="function"><name>b</name></member>
+    <member refid="bootstrap_8min_8js_1a1f5870dcf487187f13d5fd328ed9e6e7" kind="function"><name>a</name></member>
+    <member refid="bootstrap_8min_8js_1a398bb8542498d1b14178b02b99df309b" kind="function"><name>b</name></member>
+    <member refid="bootstrap_8min_8js_1afaca3a961d693f40135a872e93e71198" kind="function"><name>close</name></member>
+    <member refid="bootstrap_8min_8js_1afa9eb56c756985e9715e3820fd044aa3" kind="function"><name>hasClass</name></member>
+  </compound>
+  <compound refid="jquery_8min_8js" kind="file"><name>jquery.min.js</name>
+    <member refid="jquery_8min_8js_1ae21cc36bf0d65014c717a481a3f8a468" kind="variable"><name>undefined</name></member>
+    <member refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kind="variable"><name>a</name></member>
+    <member refid="jquery_8min_8js_1ac0431efac4d7c393d1e70b86115cb93f" kind="variable"><name>b</name></member>
+    <member refid="jquery_8min_8js_1a4f0af84f62a6e2f4aee1d072192b48ec" kind="variable"><name>fn</name></member>
+    <member refid="jquery_8min_8js_1a95a6433c7ca35778b94dc2489f6838c9" kind="variable"><name>extend</name></member>
+    <member refid="jquery_8min_8js_1a43f0b96ea8ec44ca20ba86809a785614" kind="function"><name>!function</name></member>
+    <member refid="jquery_8min_8js_1ad3f0ab1aef2d5fea5e713cb5fba76e49" kind="function"><name>extend</name></member>
+    <member refid="jquery_8min_8js_1ae08f28e80de5c4735160cf34349821f1" kind="function"><name>each</name></member>
+    <member refid="jquery_8min_8js_1ad64fceb77e67dfa33f377cfd23b524d6" kind="function"><name>s</name></member>
+  </compound>
+  <compound refid="script_8js" kind="file"><name>script.js</name>
+    <member refid="script_8js_1ae43c8c4954eb573cdf14f1ffd974d12b" kind="function"><name>setItem</name></member>
+    <member refid="script_8js_1ab0ee0cedbce5cf8fca8c23b15968419b" kind="function"><name>AfficheDonnee</name></member>
+  </compound>
+  <compound refid="v__aucun_calcul_8php" kind="file"><name>v_aucunCalcul.php</name>
+  </compound>
+  <compound refid="v__calcul_8php" kind="file"><name>v_calcul.php</name>
+  </compound>
+  <compound refid="v__cluster_8php" kind="file"><name>v_cluster.php</name>
+  </compound>
+  <compound refid="v__connexion_8php" kind="file"><name>v_connexion.php</name>
+  </compound>
+  <compound refid="v__entete_8php" kind="file"><name>v_entete.php</name>
+  </compound>
+  <compound refid="v__erreurs_8php" kind="file"><name>v_erreurs.php</name>
+  </compound>
+  <compound refid="v__informations_8php" kind="file"><name>v_informations.php</name>
+  </compound>
+  <compound refid="v__menu_8php" kind="file"><name>v_menu.php</name>
+  </compound>
+  <compound refid="v__pied_8php" kind="file"><name>v_pied.php</name>
+  </compound>
+  <compound refid="v__upload_8php" kind="file"><name>v_upload.php</name>
+  </compound>
+  <compound refid="dir_0522a4ad9bf5968bd5c17138b3c9f098" kind="dir"><name>XAMPP/xamppfiles/htdocs/appli_cluster</name>
+  </compound>
+  <compound refid="dir_206a0764d12efeb8fe0be1dcb636762b" kind="dir"><name>XAMPP/xamppfiles/htdocs/appli_cluster/controle</name>
+  </compound>
+  <compound refid="dir_7d5b44e1f1028ebad312a8453712a6e4" kind="dir"><name>XAMPP/xamppfiles/htdocs</name>
+  </compound>
+  <compound refid="dir_44924ae6833c0d5b8152bdfa0ec5b658" kind="dir"><name>XAMPP/xamppfiles/htdocs/appli_cluster/include</name>
+  </compound>
+  <compound refid="dir_e805127b6b2c48c8c441d831daff8f1e" kind="dir"><name>XAMPP/xamppfiles/htdocs/appli_cluster/js</name>
+  </compound>
+  <compound refid="dir_2026f5cf9123049c6bfe8915058a7651" kind="dir"><name>XAMPP/xamppfiles/htdocs/appli_cluster/vues</name>
+  </compound>
+  <compound refid="dir_3e9e2e94122b74ff6edb415ce9ec5a08" kind="dir"><name>XAMPP</name>
+  </compound>
+  <compound refid="dir_925f171874fb2d371852c8870f86282f" kind="dir"><name>XAMPP/xamppfiles</name>
+  </compound>
+</doxygenindex>

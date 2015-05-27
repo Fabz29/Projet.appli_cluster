@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_206a0764d12efeb8fe0be1dcb636762b" kind="dir">
+    <compoundname>XAMPP/xamppfiles/htdocs/appli_cluster/controle</compoundname>
+    <innerfile refid="c__cluster_8php">c_cluster.php</innerfile>
+    <innerfile refid="c__connexion_8php">c_connexion.php</innerfile>
+    <innerfile refid="c__informations_8php">c_informations.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/controle/"/>
+  </compounddef>
+</doxygen>

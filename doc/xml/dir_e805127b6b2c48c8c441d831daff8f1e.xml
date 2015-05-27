@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_e805127b6b2c48c8c441d831daff8f1e" kind="dir">
+    <compoundname>XAMPP/xamppfiles/htdocs/appli_cluster/js</compoundname>
+    <innerfile refid="bootstrap_8js">bootstrap.js</innerfile>
+    <innerfile refid="bootstrap_8min_8js">bootstrap.min.js</innerfile>
+    <innerfile refid="jquery_8min_8js">jquery.min.js</innerfile>
+    <innerfile refid="script_8js">script.js</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/js/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="v__aucun_calcul_8php" kind="file" language="PHP">
+    <compoundname>v_aucunCalcul.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;col-sm-7<sp/>col-sm-offset-1&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/>align=</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;text&quot;</highlight><highlight class="normal">&gt;Aucun<sp/>calcul<sp/>est<sp/>en<sp/>cours.&lt;/div&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;br&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;p<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;information&quot;</highlight><highlight class="normal">&gt;Terminer<sp/>chaque<sp/>étapes<sp/>afin<sp/>de<sp/>finaliser<sp/>votre<sp/>calcul&lt;/p&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref><sp/>type=</highlight><highlight class="stringliteral">&quot;button&quot;</highlight><highlight class="normal"><sp/>href=</highlight><highlight class="stringliteral">&quot;index.php?url=cluster&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;btn<sp/>btn-info&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;i<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;glyphicon<sp/>glyphicon-play&quot;</highlight><highlight class="normal">&gt;&lt;/i&gt;<sp/>Lancer<sp/>un<sp/>calcul</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref>&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+    </programlisting>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/vues/v_aucunCalcul.php"/>
+  </compounddef>
+</doxygen>

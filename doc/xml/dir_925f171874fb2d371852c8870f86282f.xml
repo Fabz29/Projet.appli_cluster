@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_925f171874fb2d371852c8870f86282f" kind="dir">
+    <compoundname>XAMPP/xamppfiles</compoundname>
+    <innerdir refid="dir_7d5b44e1f1028ebad312a8453712a6e4">XAMPP/xamppfiles/htdocs</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/"/>
+  </compounddef>
+</doxygen>

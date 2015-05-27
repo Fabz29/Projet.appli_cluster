@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="script_8js" kind="file" language="Javascript">
+    <compoundname>script.js</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="script_8js_1ae43c8c4954eb573cdf14f1ffd974d12b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>function localStorage</type>
+        <definition>localStorage setItem</definition>
+        <argsstring>(&apos;logiciel&apos;,$(&apos;#logiciel&apos;).val())</argsstring>
+        <name>setItem</name>
+        <param>
+          <type>&apos;logiciel&apos;</type>
+          <defname>&apos;logiciel&apos;</defname>
+        </param>
+        <param>
+          <declname>$</declname>
+          <array>&apos;#logiciel&apos;).val(</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Les données rentré par l&apos;utilisateur sont stockés dans localStorage de son navigateur afin de les sauvegarders pour les affichers malgrès la fermture du navigateur ou la déconnexion du client </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/js/script.js" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="script_8js_1ab0ee0cedbce5cf8fca8c23b15968419b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>function</type>
+        <definition>AfficheDonnee</definition>
+        <argsstring>()</argsstring>
+        <name>AfficheDonnee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/js/script.js" line="19" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/js/script.js" bodystart="19" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/>$(</highlight><highlight class="keyword">function</highlight><highlight class="normal">(){</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>$(</highlight><highlight class="stringliteral">&quot;#envoyer&quot;</highlight><highlight class="normal">).click(</highlight><highlight class="keyword">function</highlight><highlight class="normal">(){<sp/></highlight><highlight class="comment">//<sp/>instruction<sp/>lors<sp/>du<sp/>click<sp/>sur<sp/>le<sp/>bouton<sp/>envoyer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>enregistre<sp/>les<sp/>informations<sp/>du<sp/>formulaire</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>localStorage.setItem(</highlight><highlight class="stringliteral">&apos;email&apos;</highlight><highlight class="normal">,<sp/>$(</highlight><highlight class="stringliteral">&apos;#mail&apos;</highlight><highlight class="normal">).val());</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>localStorage.setItem(</highlight><highlight class="stringliteral">&apos;logiciel&apos;</highlight><highlight class="normal">,<sp/>$(</highlight><highlight class="stringliteral">&apos;#logiciel&apos;</highlight><highlight class="normal">).val());</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>localStorage.setItem(</highlight><highlight class="stringliteral">&apos;Machines&apos;</highlight><highlight class="normal">,<sp/>$(</highlight><highlight class="stringliteral">&apos;#nbMachine&apos;</highlight><highlight class="normal">).val());</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>localStorage.setItem(</highlight><highlight class="stringliteral">&apos;Coeurs&apos;</highlight><highlight class="normal">,<sp/>$(</highlight><highlight class="stringliteral">&apos;#nbCore&apos;</highlight><highlight class="normal">).val());</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>localStorage.setItem(</highlight><highlight class="stringliteral">&apos;Temps&apos;</highlight><highlight class="normal">,<sp/>$(</highlight><highlight class="stringliteral">&apos;#nbTime&apos;</highlight><highlight class="normal">).val());</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">});</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>fontion<sp/>d&apos;affichage<sp/>des<sp/>données</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="script_8js_1ab0ee0cedbce5cf8fca8c23b15968419b" kindref="member">AfficheDonnee</ref>(){</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>key<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>NomValeur<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&lt;hr&gt;<sp/>&lt;ul<sp/>class=&quot;nav&quot;&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>i=0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;<sp/>i<sp/>&lt;=<sp/>localStorage.length-1;<sp/>i++){</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key<sp/>=<sp/>localStorage.key(i);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NomValeur<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;&lt;li&gt;&lt;strong&gt;&quot;</highlight><highlight class="normal"><sp/>+<sp/>key<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;&lt;/strong&gt;<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>localStorage.getItem(key)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;&lt;/li&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>NomValeur<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;&lt;/ul&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>$(</highlight><highlight class="stringliteral">&quot;#donnee&quot;</highlight><highlight class="normal">).html(NomValeur);<sp/></highlight><highlight class="comment">//<sp/>replace<sp/>la<sp/>div<sp/>donnee<sp/>par<sp/>le<sp/>contenu<sp/>de<sp/>NomValeur</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><ref refid="script_8js_1ab0ee0cedbce5cf8fca8c23b15968419b" kindref="member">AfficheDonnee</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">});</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">$(</highlight><highlight class="keyword">function</highlight><highlight class="normal">(){<sp/></highlight><highlight class="comment">//<sp/>instruction<sp/>lors<sp/>du<sp/>clic<sp/>sur<sp/>le<sp/>bouton<sp/>stop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>$(</highlight><highlight class="stringliteral">&quot;#stop&quot;</highlight><highlight class="normal">).click(</highlight><highlight class="keyword">function</highlight><highlight class="normal">(){</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>localStorage.clear();<sp/></highlight><highlight class="comment">//<sp/>efface<sp/>toutes<sp/>les<sp/>données</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">});</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/js/script.js"/>
+  </compounddef>
+</doxygen>

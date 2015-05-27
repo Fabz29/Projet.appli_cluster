@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="fct_8inc_8php" kind="file" language="PHP">
+    <compoundname>fct.inc.php</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="fct_8inc_8php_1a80ca5386d53e29b2b310cb83191a9b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>estConnecte</definition>
+        <argsstring>()</argsstring>
+        <name>estConnecte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonctions pour l&apos;application du cluster de calcul LEM3</para><para><simplesect kind="author"><para>Fabien ZANETTI </para></simplesect>
+<simplesect kind="version"><para>1.0 Teste si un quelconque visiteur est connecté </para></simplesect>
+<simplesect kind="return"><para>vrai ou faux </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/include/fct.inc.php" line="12" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/include/fct.inc.php" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="fct_8inc_8php_1a97b08c386abe1dc64c15a73e47ac6286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>connecter</definition>
+        <argsstring>($id, $mdp)</argsstring>
+        <name>connecter</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <param>
+          <declname>$mdp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enregistre dans une variable session les infos d&apos;un utilisateur</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/include/fct.inc.php" line="20" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/include/fct.inc.php" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="fct_8inc_8php_1a999ec8c14031968ce9d6ba2410105d4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>deconnexion</definition>
+        <argsstring>()</argsstring>
+        <name>deconnexion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction de déconnexion qui détruit la session </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/include/fct.inc.php" line="29" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/include/fct.inc.php" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="fct_8inc_8php_1a9ebfa4d6e8d836827ddb02455281e5c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ajouterErreur</definition>
+        <argsstring>($msg)</argsstring>
+        <name>ajouterErreur</name>
+        <param>
+          <declname>$msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ajoute le libellé d&apos;une erreur au tableau des erreurs</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$msg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: le libellé de l&apos;erreur </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/include/fct.inc.php" line="38" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/include/fct.inc.php" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="fct_8inc_8php_1abc3600d37e9484937ea976542eabec4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nbErreurs</definition>
+        <argsstring>()</argsstring>
+        <name>nbErreurs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retoune le nombre de lignes du tableau des erreurs</para><para><simplesect kind="return"><para>le nombre d&apos;erreurs </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/include/fct.inc.php" line="49" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/include/fct.inc.php" bodystart="49" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="fct_8inc_8php_1a80ca5386d53e29b2b310cb83191a9b31" kindref="member">estConnecte</ref>(){</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>isset($_SESSION[</highlight><highlight class="stringliteral">&apos;idUtilisateur&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="fct_8inc_8php_1a97b08c386abe1dc64c15a73e47ac6286" kindref="member">connecter</ref>($id,<sp/>$mdp){</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>$_SESSION[</highlight><highlight class="stringliteral">&apos;idUtilisateur&apos;</highlight><highlight class="normal">]=<sp/>$id;<sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>$_SESSION[</highlight><highlight class="stringliteral">&apos;mdpUtilisateur&apos;</highlight><highlight class="normal">]=<sp/>$mdp;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="fct_8inc_8php_1a999ec8c14031968ce9d6ba2410105d4b" kindref="member">deconnexion</ref>(){</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>session_destroy();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="fct_8inc_8php_1a9ebfa4d6e8d836827ddb02455281e5c1" kindref="member">ajouterErreur</ref>($msg){</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<sp/>isset($_GET[</highlight><highlight class="stringliteral">&apos;erreurs&apos;</highlight><highlight class="normal">])){</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$_GET[</highlight><highlight class="stringliteral">&apos;erreurs&apos;</highlight><highlight class="normal">]=array();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>$_GET[</highlight><highlight class="stringliteral">&apos;erreurs&apos;</highlight><highlight class="normal">][]=$msg;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="fct_8inc_8php_1abc3600d37e9484937ea976542eabec4b" kindref="member">nbErreurs</ref>(){</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!isset($_REQUEST[</highlight><highlight class="stringliteral">&apos;erreurs&apos;</highlight><highlight class="normal">])){</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>count($_REQUEST[</highlight><highlight class="stringliteral">&apos;erreurs&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/include/fct.inc.php"/>
+  </compounddef>
+</doxygen>

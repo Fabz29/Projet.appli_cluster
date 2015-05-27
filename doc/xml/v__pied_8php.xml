@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="v__pied_8php" kind="file" language="PHP">
+    <compoundname>v_pied.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;/div&gt;<sp/>&lt;!--<sp/>fin<sp/>de<sp/>la<sp/>ligne<sp/>--&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">&lt;/div&gt;<sp/>&lt;!--<sp/>fin<sp/>du<sp/>corps<sp/>--&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">&lt;hr&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;footer&quot;</highlight><highlight class="normal">&gt;<sp/>&lt;!--<sp/>début<sp/>du<sp/>pied<sp/>de<sp/>page<sp/>--&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;container&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;row&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;p<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;text-muted&quot;</highlight><highlight class="normal">&gt;Copyright<sp/>&lt;span<sp/>style=</highlight><highlight class="stringliteral">&quot;color:<sp/>#e15f01&quot;</highlight><highlight class="normal">&gt;<sp/>Fabien<sp/>Zanetti<sp/>&lt;/span&gt;<sp/>-<sp/>&lt;<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref><sp/>href=</highlight><highlight class="stringliteral">&quot;http://fabien-zanetti.ovh&quot;</highlight><highlight class="normal"><sp/>target=</highlight><highlight class="stringliteral">&quot;_blank&quot;</highlight><highlight class="normal"><sp/>title=</highlight><highlight class="stringliteral">&quot;fabien-zanett.ovh&quot;</highlight><highlight class="normal">&gt;www.fabien-zanetti.ovh&lt;/<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref>&gt;&lt;/p&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">&lt;/div&gt;&lt;!--<sp/>fin<sp/>du<sp/>pied<sp/>de<sp/>page<sp/>--&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">&lt;!--<sp/>fichier<sp/>source<sp/>de<sp/>jQuery<sp/>--&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">&lt;script<sp/>src=</highlight><highlight class="stringliteral">&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js&quot;</highlight><highlight class="normal">&gt;&lt;/script&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">&lt;!--<sp/>fichier<sp/>source<sp/>de<sp/>JavaScript<sp/>de<sp/>BootStrap<sp/>--&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">&lt;script<sp/>src=</highlight><highlight class="stringliteral">&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js&quot;</highlight><highlight class="normal">&gt;&lt;/script&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">&lt;!--<sp/>Script<sp/>propre<sp/>à<sp/>l</highlight><highlight class="stringliteral">&apos;application<sp/>--&gt;</highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral">&lt;script<sp/>src=&quot;js/script.js&quot;&gt;&lt;/script&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral">&lt;/body&gt;</highlight></codeline>
+<codeline lineno="20"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="21"><highlight class="stringliteral">&lt;/html&gt;</highlight></codeline>
+    </programlisting>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/vues/v_pied.php"/>
+  </compounddef>
+</doxygen>

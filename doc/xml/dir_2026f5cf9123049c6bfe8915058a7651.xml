@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_2026f5cf9123049c6bfe8915058a7651" kind="dir">
+    <compoundname>XAMPP/xamppfiles/htdocs/appli_cluster/vues</compoundname>
+    <innerfile refid="v__aucun_calcul_8php">v_aucunCalcul.php</innerfile>
+    <innerfile refid="v__calcul_8php">v_calcul.php</innerfile>
+    <innerfile refid="v__cluster_8php">v_cluster.php</innerfile>
+    <innerfile refid="v__connexion_8php">v_connexion.php</innerfile>
+    <innerfile refid="v__entete_8php">v_entete.php</innerfile>
+    <innerfile refid="v__erreurs_8php">v_erreurs.php</innerfile>
+    <innerfile refid="v__informations_8php">v_informations.php</innerfile>
+    <innerfile refid="v__menu_8php">v_menu.php</innerfile>
+    <innerfile refid="v__pied_8php">v_pied.php</innerfile>
+    <innerfile refid="v__upload_8php">v_upload.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/vues/"/>
+  </compounddef>
+</doxygen>

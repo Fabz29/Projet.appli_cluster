@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="index_8php" kind="file" language="PHP">
+    <compoundname>index.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="index_8php_1a5766efd703cef0e00bfc06b3f3acbe0e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$pdo</definition>
+        <argsstring></argsstring>
+        <name>$pdo</name>
+        <initializer>= <ref refid="class_pdo_gsb_1a37ab3ed998137aeaf4d581365520067e" kindref="member">PdoGsb::getPdoGsb</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/index.php" line="6" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/index.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8php_1aa720998827fe9e92a5fe573a62edc0b8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$connexion</definition>
+        <argsstring></argsstring>
+        <name>$connexion</name>
+        <initializer>= <ref refid="fct_8inc_8php_1a80ca5386d53e29b2b310cb83191a9b31" kindref="member">estConnecte</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/index.php" line="7" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/index.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8php_1ac2d5dc09aedd8fe57d725d325e7f3d91" prot="public" static="no" mutable="no">
+        <type><ref refid="bootstrap_8min_8js_1a87cf461060832b8b68a7b48d9e371e4f" kindref="member">if</ref>(!isset($_GET[&apos;url&apos;])||!$connexion)</type>
+        <definition>if (!isset($_GET[&apos;url&apos;])||!$connexion) $url</definition>
+        <argsstring></argsstring>
+        <name>$url</name>
+        <initializer>= $_GET[&apos;url&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/index.php" line="11" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/index.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8php_1aeeb1e7cd8e0f1ce17347435a8396f0a9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>switch($url)</definition>
+        <argsstring>($url)</argsstring>
+        <name>switch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/index.php" line="12" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/index.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">session_start();<sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">require(</highlight><highlight class="stringliteral">&apos;include/fct.inc.php&apos;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>fonctions<sp/>de<sp/>base<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">require(</highlight><highlight class="stringliteral">&apos;include/pdo.class.php&apos;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>classe<sp/>d&apos;accès<sp/>à<sp/>la<sp/>base<sp/>de<sp/>donnée</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">include(</highlight><highlight class="stringliteral">&apos;vues/v_entete.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="index_8php_1a5766efd703cef0e00bfc06b3f3acbe0e" kindref="member">$pdo</ref><sp/>=<sp/><ref refid="class_pdo_gsb_1a37ab3ed998137aeaf4d581365520067e" kindref="member">PdoGsb::getPdoGsb</ref>();</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="index_8php_1aa720998827fe9e92a5fe573a62edc0b8" kindref="member">$connexion</ref><sp/>=<sp/><ref refid="fct_8inc_8php_1a80ca5386d53e29b2b310cb83191a9b31" kindref="member">estConnecte</ref>();<sp/></highlight><highlight class="comment">//<sp/>fonction<sp/>qui<sp/>vérifie<sp/>si<sp/>l&apos;utilisateur<sp/>est<sp/>connecté</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!isset($_GET[</highlight><highlight class="stringliteral">&apos;url&apos;</highlight><highlight class="normal">])<sp/>||<sp/>!<ref refid="index_8php_1aa720998827fe9e92a5fe573a62edc0b8" kindref="member">$connexion</ref>){</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>$_GET[</highlight><highlight class="stringliteral">&apos;url&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;connexion&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><ref refid="index_8php_1ac2d5dc09aedd8fe57d725d325e7f3d91" kindref="member">$url</ref><sp/>=<sp/>$_GET[</highlight><highlight class="stringliteral">&apos;url&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(<ref refid="index_8php_1ac2d5dc09aedd8fe57d725d325e7f3d91" kindref="member">$url</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;connexion&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>include(</highlight><highlight class="stringliteral">&apos;controle/c_connexion.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;cluster&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>include(</highlight><highlight class="stringliteral">&apos;controle/c_cluster.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;informations&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>include(</highlight><highlight class="stringliteral">&apos;controle/c_informations.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>include(</highlight><highlight class="stringliteral">&apos;controle/c_connexion.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">include(</highlight><highlight class="stringliteral">&apos;vues/v_pied.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/index.php"/>
+  </compounddef>
+</doxygen>

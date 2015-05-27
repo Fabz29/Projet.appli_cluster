@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_0522a4ad9bf5968bd5c17138b3c9f098" kind="dir">
+    <compoundname>XAMPP/xamppfiles/htdocs/appli_cluster</compoundname>
+    <innerdir refid="dir_206a0764d12efeb8fe0be1dcb636762b">XAMPP/xamppfiles/htdocs/appli_cluster/controle</innerdir>
+    <innerdir refid="dir_44924ae6833c0d5b8152bdfa0ec5b658">XAMPP/xamppfiles/htdocs/appli_cluster/include</innerdir>
+    <innerdir refid="dir_e805127b6b2c48c8c441d831daff8f1e">XAMPP/xamppfiles/htdocs/appli_cluster/js</innerdir>
+    <innerdir refid="dir_2026f5cf9123049c6bfe8915058a7651">XAMPP/xamppfiles/htdocs/appli_cluster/vues</innerdir>
+    <innerfile refid="index_8php">index.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/appli_cluster/"/>
+  </compounddef>
+</doxygen>
